@@ -1,0 +1,17 @@
+.psuedo:link {
+  color: #184435;
+}
+
+.psuedo:hover {
+  font-family: Hack;
+  font-size: 30px;
+  color: aqua;
+}
+
+.psuedo:active {
+  font-style: italic;
+}
+
+.psuedo:visited {
+  color: red;
+}

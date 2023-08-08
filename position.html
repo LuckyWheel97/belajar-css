@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Position CSS<title></title>
+
+    <style>
+      #first-box {
+        height: 100px;
+        width: 100px;
+        background-color: #9eb41b;
+        position: relative;
+        left: 200px;
+      }
+      #second-box {
+        height: 100px;
+        width: 100px;
+        background-color: #cb745f;
+        position: absolute;
+        left: 200px;
+        top: 200px;
+      }
+      #third-box {
+        height: 100px;
+        width: 100px;
+        background-color: #be3022;
+        position: fixed;
+        left: 100px;
+      }
+      #fourth-box {
+        height: 10000px;
+        width: 100px;
+        background-color: #28c988;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="first-box">Relative</div>
+    <div id="second-box">Absolute</div>
+    <div id="third-box">Fixed</div>
+    <div id="fourth-box"></div>
+  </body>
+</html>
