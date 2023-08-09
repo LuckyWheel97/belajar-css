@@ -1,0 +1,51 @@
+/* universal selector */
+
+* {
+  font-family: Hack;
+}
+
+/* ttype selector */
+h1 {
+  font-size: 50px;
+}
+
+/* class selector */
+h2.artikel {
+  font-size: 20px;
+}
+
+.credit {
+  font-size: 12px;
+}
+
+.penulis {
+  color: blueviolet;
+}
+
+.tanggal {
+  color: brown;
+}
+
+/* id selector */
+
+#artikel-1 {
+  color: darkgoldenrod;
+}
+
+/* child selector */
+p > span {
+  color: aqua;
+}
+
+/* first child */
+
+h3 + p {
+  color: dodgerblue;
+  font-size: 14px;
+}
+
+/* old child */
+
+h1 ~ p {
+  text-align: justify;
+}
