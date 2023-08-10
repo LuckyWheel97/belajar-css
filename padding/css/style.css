@@ -1,0 +1,46 @@
+/* padding */
+
+* {
+  font-family: Hack;
+}
+
+h1 {
+  width: 300px;
+  height: 50px;
+  text-align: center;
+}
+
+.border {
+  border: 1px solid;
+}
+
+.padding-1 {
+  background-color: aqua;
+  padding: 20px;
+}
+
+.padding-2 {
+  background-color: hotpink;
+  /* padding atas-bawah dan kiri-kanan*/
+  padding: 10px 20px;
+}
+
+.padding-3 {
+  background-color: maroon;
+  color: aliceblue;
+  /* padding atas, kiri-kanan dan bawah */
+  padding: 5px 20px 50px;
+}
+
+.padding-4 {
+  background-color: maroon;
+  color: aliceblue;
+  /* padding atas, kanan, bawah dan kiri */
+  padding: 5px 10px 20px 50px;
+}
+
+/* 
+tambahan: 
+padding-block
+padding-inline
+*/

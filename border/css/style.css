@@ -1,0 +1,39 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.border-1 {
+  border: 5px solid goldenrod;
+}
+
+#atas-solid {
+  border: 5px;
+  border-top-style: solid;
+}
+
+#kiri-solid {
+  border-color: blueviolet;
+  border-left-width: 4px;
+  border-left-style: solid;
+}
+
+#bawah-dashed {
+  border-color: blueviolet;
+  border-bottom-width: 4px;
+  border-bottom-style: dashed;
+}
+
+/* Border Size */
+.border-2 {
+  color: firebrick;
+  border-style: solid;
+  /* untuk atas-bawah dan kiri-kanan */
+  border-width: 20px 5px;
+}
+
+.border-3 {
+  color: firebrick;
+  border-style: solid;
+  /* untuk atas, kanan, bawah dan kiri */
+  border-width: 5px 10px 15px 20px;
+}
